@@ -1,7 +1,7 @@
 # This is a collaborative design by AltSchool Africa students (Circle-9) inspired by Frontend Mentor
 The name of the project will be Circle-9 - A cloud hosting platform
 
-![Header/cloud host logo](./images/logo.svg)
+![cloud host logo](./images/logo.svg)
 ![Header/intro section for the Huddle landing page with curved sections](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
@@ -12,10 +12,10 @@ The name of the project will be Circle-9 - A cloud hosting platform
 Your challenge is to build out this landing page and get it looking as close to the design as possible.
 As team members we are basically using HTML and CSS for this project and the project will be divided into four part;
 1. The Header Section
-![Header/cloud host logo](./task/Header.png)
+![Header Section](./tasks/Header.png)
 
 2. Productive Section (2nd Section)
-![Header/product section](./task/"Productive section (section2)".png)
+![product section](./tasks/"Productive section (section2)".png)
 
 Your users should be able to: 
 
