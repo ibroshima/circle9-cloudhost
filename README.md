@@ -18,15 +18,15 @@ As team members we are basically using HTML and CSS for this project and the pro
 
 ============================================================
 ### 2. Productive Section (2nd Section)
-![product section](tasks/Productive section (section2).png)
+![product section](./tasks/Productive section (section2).png)
 
 ============================================================
 ### 3. Newsletter Section
-![Newsletter and Mail](tasks/Newsletter section (Section 3).png
+![Newsletter and Mail](./tasks/Newsletter section (Section 3).png
 
 ============================================================
 ### 4. Footer Section
-![Footer Section](task/Footer (Section 4).png)
+![Footer Section](./task/Footer (Section 4).png)
 
 
 ## Where to find everything
@@ -46,15 +46,16 @@ Feel free to use any workflow that you feel comfortable with. Below is a suggest
 `git clone https://github.com/InfoTechDrive/circle9-cloudhost.git`
 
 2. Create a new branch with the branch, switch or checkout commands
-`git switch -c name-of-task`
-`git branch -a` - to verify branch
+```git switch -c name-of-task```
+```git branch -a``` - to verify branch
 
 3. Perform a git push with the –set-upstream option to set the remote repo for the new branch
-`git add .`
-`git commit -m "name-of-the-task"
-`git push --set-upstream origin new-branch`
+```git add .```
+```git commit -m "name-of-the-task"```
+```git push --set-upstream origin new-branch```
 
 4. Continue to perform Git commits locally on the new branch
+
 5. Simply use a `git push origin` command on subsequent pushes of the new branch to the remote repo
 
 ## Deploying your project
