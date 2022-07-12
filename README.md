@@ -11,17 +11,25 @@ The name of the project will be Circle-9 - A cloud hosting platform
 
 Your challenge is to build out this landing page and get it looking as close to the design as possible.
 As team members we are basically using HTML and CSS for this project and the project will be divided into four part;
-**1. The Header Section
+============================================================
+###1. The Header Section
 ![Header Section](./tasks/Header.png)
+============================================================
 
-**2. Productive Section (2nd Section)
+============================================================
+###2. Productive Section (2nd Section)
 ![product section](tasks/Productive section (section2).png)
+============================================================
 
-**3. Newsletter Section
+============================================================
+###3. Newsletter Section
 ![Newsletter and Mail](tasks/Newsletter section (Section 3).png
+============================================================
 
-**4. Footer Section
+============================================================
+###4. Footer Section
 ![Footer Section](task/Footer (Section 4).png)
+============================================================
 
 
 ## Where to find everything
