@@ -22,11 +22,11 @@ As team members we are basically using HTML and CSS for this project and the pro
 
 ============================================================
 ### 3. Newsletter Section
-![Newsletter and Mail](./tasks/Newsletter-section-3.png
+![Newsletter and Mail](./tasks/Newsletter-section-3.png)
 
 ============================================================
 ### 4. Footer Section
-![Footer Section](./task/Footer-section-4.png)
+![Footer Section](./tasks/Footer-section-4.png)
 
 
 ## Where to find everything
