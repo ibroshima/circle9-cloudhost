@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@300&display=swap');
+
+:root {
+    --Very-Dark-Blue: hsl(243, 87%, 12%);
+    --Desaturated-Blue: hsl(238, 22%, 44%);
+    --Moderate-Cyan: hsl(170, 45%, 43%);
+    --Bright-Blue: hsl(224, 93%, 58%);
+    --Light-Grayish-Blue: hsl(240, 75%, 98%);
+    --input-height: 40px;
+    --full-width-or-height: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'open sans', sans-serif;
+    font-weight: 400;
+}
+
+.ib-container {
+    width: 1440px;
+    max-width: var(--full-width-or-height);
+    margin: 0 auto;
+}
+
+.ib-navbar {
+    height: 15%;
+    max-height: 50px;
+    width: var(--full-width-or-height);
+    margin: 20px 0;
+    padding: 0 5%;
+    display: inline-flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+    font-family: 'raleway', sans-serif;
+    font-weight: 400, 700;
+}
+
+.ib-navbar-img {
+    height: 50%;
+    width: 15%;
+}
+
+.ib-nav {
+    width: 50%;
+    height: var(--full-width-or-height);
+    margin-left: 35%;
+    display: flex;
+    justify-content: flex-end;
+} 
+
+#ib-nav-links {
+    text-decoration: none;
+    color: var(--Very-Dark-Blue);
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+#ib-nav-links:hover {
+    color: var(--Desaturated-Blue);
+    font-weight: 400;
+}
+
+.ib-header-section {
+    width: 90%;
+    height: var(--full-width-or-height);
+    margin: 50px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.ib-col {
+    width: 50%;
+    height: var(--full-width-or-height);
+    color: var(--Very-Dark-Blue);
+    font-size: 1.8rem;
+}
+
+.ib-col > p {
+    margin: 10px 0;
+    font-size: 1.3rem;
+}
+
+.ib-col-2 > img {
+    width: var(--full-width-or-height);
+}
+
+#ib-email {
+    width: 50%;
+    height: var(--input-height);
+    padding-left: 15px;
+    border-radius: 3px;
+    border: 1px solid;
+    font-family: 'open sans', sans-serif;
+    font-weight: 700;
+    opacity: 0.4;
+}
+
+#ib-email:focus {
+    background-color: var(--Light-Grayish-Blue);
+    color: var(--Very-Dark-Blue);
+    opacity: 1;
+}
+
+#ib-submit {
+    width: 30%;
+    height: var(--input-height);
+    background-color: var(--Bright-Blue);
+    border: none;
+    border-radius: 2px;
+    color: white;
+    font-family: 'open sans', sans-serif;
+    font-weight: 700;
+}
+
+#ib-submit:hover {
+    cursor: pointer;
+    background-color: var(--Desaturated-Blue);
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .ib-nav {
+        width: 60%;
+        margin-left: 10%;
+    } 
+
+    .ib-navbar-img {
+        width: 30%;
+        align-self: center;
+    }
+
+    #ib-nav-links {
+        font-size: 0.8rem;
+        padding: 15px 10px 0 10px;
+    }
+
+    .ib-header-section {
+        width: var(--full-width-or-height);
+        flex-direction: column-reverse;
+    }
+    
+    .ib-col {
+        width: 80%;
+        height: var(--full-width-or-height);
+        color: hsl(243, 87%, 12%);
+        font-size: 1rem;
+        text-align: center;
+    }
+    
+    .ib-col > p {
+        margin: 20px 0;
+        font-size: 0.9rem;
+    }
+    
+    .ib-col-2 > img {
+        width: var(--full-width-or-height);
+    }
+
+    #ib-email {
+        width: var(--full-width-or-height);
+        margin-bottom: 20px;
+    }
+    
+    #ib-submit {
+        width: var(--full-width-or-height);
+    }
+}
+
+
+
