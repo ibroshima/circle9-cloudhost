@@ -18,15 +18,15 @@ As team members we are basically using HTML and CSS for this project and the pro
 
 ============================================================
 ### 2. Productive Section (2nd Section)
-![product section](./tasks/Productive section (section2).png)
+![product section](./tasks/Productive-section-2.png)
 
 ============================================================
 ### 3. Newsletter Section
-![Newsletter and Mail](./tasks/Newsletter section (Section 3).png
+![Newsletter and Mail](./tasks/Newsletter-section-3.png
 
 ============================================================
 ### 4. Footer Section
-![Footer Section](./task/Footer (Section 4).png)
+![Footer Section](./task/Footer-section-4.png)
 
 
 ## Where to find everything
