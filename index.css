@@ -5,9 +5,12 @@
     --Desaturated-Blue: hsl(238, 22%, 44%);
     --Moderate-Cyan: hsl(170, 45%, 43%);
     --Bright-Blue: hsl(224, 93%, 58%);
-    --Light-Grayish-Blue: hsl(240, 75%, 98%);
-    --input-height: 40px;
+    --Light-Grayish-Blue: hsl(240, 75%, 98%, 0.8);
+    --Light-Gray: hsl(0, 0%, 75%);
+    --input-height: 50px;
     --full-width-or-height: 100%;
+    --large-margin: 250px;
+    --small-font-size: 0.9rem;
 }
 
 * {
@@ -27,7 +30,7 @@ body {
     max-width: var(--full-width-or-height);
     margin: 0 auto;
 }
-
+/* beginning of navigation bar */
 .ib-navbar {
     height: 15%;
     max-height: 50px;
@@ -68,8 +71,10 @@ body {
     color: var(--Desaturated-Blue);
     font-weight: 400;
 }
+/* end of nagivation bar */
 
-.ib-header-section {
+/* beginning of header section */
+.ib-section {
     width: 90%;
     height: var(--full-width-or-height);
     margin: 50px auto;
@@ -127,9 +132,142 @@ body {
     cursor: pointer;
     background-color: var(--Desaturated-Blue);
 }
+/* end of header section */
+.curve-desktop {
+    background-image: url("images/bg-curve-desktop.svg");
+    margin: 0 auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 114px;
+}
+/* beginning of productive section */
+.ib-productive-section {
+    margin-top: 0%;
+    font-size: 1rem;
+    font-weight: 400;
+    background-color: var(--Light-Grayish-Blue);
+    width: 100%;
+    padding: 0 5% 5% 5%;
+    border: none;
+}
 
+.ib-col-3 {
+    width: 60%;
+    margin-top: 80px;
+}
 
+.ib-col-3 > p , a {
+    font-size: 1rem;
+    padding-right: 20%;
+    padding-bottom: 10px;
+}
 
+.ib-col-3 > a {
+    color: var(--Moderate-Cyan);
+    text-decoration-line: underline;
+}
+
+.ib-review-box {
+    margin-top: 50px;
+    width: 50%;
+    height: 70%;
+    background-color: white;
+    font-size: var(--small-font-size);
+    padding: 20px 20px;
+    text-align: left;
+    border-radius: 5px;
+    box-shadow: 1px 1px 8px 1px var(--Light-Gray),
+                -1px -1px 8px 1px var(--Light-Gray);
+}
+
+.ib-profile {
+    margin-top: 20px;
+    font-size: 0.6rem;
+}
+
+.ib-profile > img {
+    width: 30px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 10px;
+}
+
+.ib-col-4 {
+    margin-top: 100px;
+}
+
+.ib-col-4 > img {
+    width: 100%;
+}
+/* end of productive section */
+
+/* beginning of newsletter section */
+.ib-newsletter-section {
+    width: 100%;
+    height: 40vh;
+    background-color: var(--Desaturated-Blue);
+    padding: 80px 5%;
+    color: white;
+}
+
+.ib-col-5 {
+    color: white;
+    padding-right: 150px;
+}
+
+.ib-col-5 > h1 {
+    margin-top: -10px;
+}
+
+.ib-col-5 > p {
+    font-size: 1rem;
+}
+
+.ib-col-6 {
+    padding-left: 75px;
+}
+
+/* .ib-col-6 > input[type=email] {
+    background-color: white;
+} */
+
+#ib-newsletter-email {
+    width: 80%;
+    height: var(--input-height);
+    padding-left: 15px;
+    border-radius: 3px;
+    border: 1px solid;
+    font-family: 'open sans', sans-serif;
+    font-weight: 700;
+    opacity: 0.4;
+}
+
+#ib-newsletter-email:focus {
+    background-color: var(--Light-Gray);
+    color: var(--Very-Dark-Blue);
+    opacity: 1;
+}
+
+#ib-newsletter-submit {
+    width: 30%;
+    height: var(--input-height);
+    background-color: var(--Bright-Blue);
+    border: none;
+    border-radius: 2px;
+    color: white;
+    font-family: 'open sans', sans-serif;
+    font-weight: 700;
+    margin-top: 15px;
+}
+
+#ib-newsletter-submit:hover {
+    cursor: pointer;
+    background-color: hsl(224, 93%, 58%, 0.6);
+}
+
+/* for small screens < 768px */
 @media screen and (max-width: 768px) {
     .ib-nav {
         width: 60%;
@@ -146,7 +284,7 @@ body {
         padding: 15px 10px 0 10px;
     }
 
-    .ib-header-section {
+    .ib-section {
         width: var(--full-width-or-height);
         flex-direction: column-reverse;
     }
@@ -161,10 +299,10 @@ body {
     
     .ib-col > p {
         margin: 20px 0;
-        font-size: 0.9rem;
+        font-size: var(--small-font-size);
     }
     
-    .ib-col-2 > img {
+    .ib-col > img {
         width: var(--full-width-or-height);
     }
 
@@ -176,6 +314,84 @@ body {
     #ib-submit {
         width: var(--full-width-or-height);
     }
+
+    .curve-desktop {
+        background-image: url("images/bg-curve-mobile.svg");
+        margin: 0 auto;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 100%;
+        height: 53px;
+    }
+
+    .ib-productive-section {
+        margin-top: 0;
+        font-size: 0.3rem;
+        font-weight: 400;
+    }
+
+    .ib-col-4 {
+        margin-top: 0;
+    }
+    
+    .ib-col-3 {
+        width: 90%;
+        margin-top: 50px;
+        font-size: 0.7rem;
+    }
+    
+    .ib-col-3 > p , a {
+        font-size: var(--small-font-size);
+        padding-right: 5%;
+        text-align: left;
+    }
+
+    .ib-review-box {
+        margin: 50px auto;
+        width: 90%;
+    }
+
+    .ib-newsletter-section {
+        width: 100%;
+        height: 60%;
+        padding: 40px 5%;
+        /* color: white; */
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .ib-col-5 {
+        color: white;
+        width: 100%;
+        text-align: center;
+        padding-right: 0%;
+    }
+    
+    .ib-col-5 > h1 {
+        font-size: 1.2rem;
+    }
+    
+    .ib-col-5 > p {
+        font-size: 1rem;
+    }
+    
+    .ib-col-6 {
+       width: 100%;
+       padding-left: 0%;
+    }
+    
+    #ib-newsletter-email {
+        width: 80%;
+    }
+    
+    #ib-newsletter-submit {
+        width: 80%;
+    }
+
 }
 
 
